@@ -1,0 +1,41 @@
+.navbar{
+    justify-content: space-between;
+    position: absolute;
+}
+.navbar-brand {
+    font-weight: 800;
+    color: white !important;
+}
+
+a.nav-link {
+    font-weight: 800;
+    color: white !important;
+
+    }
+  
+  @media screen and (max-width: 1000px) {
+    .navbar{
+    background-color: white ;
+    }
+    .navbar-brand {
+        font-weight: 800;
+        color: black !important;
+        
+    }
+    .nav-item{
+        float :left;
+    
+        text-align: left;
+    }
+    
+    a.nav-link {
+        font-weight: 800;
+        color: black !important;
+    
+        }
+        .navbar-toggler{
+            color: black !important;
+            padding: 10px;
+            
+        }
+    }
